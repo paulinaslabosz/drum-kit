@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     width: 100vw;
@@ -18,4 +23,40 @@ body {
     right: 0;
     position: absolute;
     z-index: -1;   
+  }
+
+
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0 8px 0 8px;
+    /* font-size: 10px; */
+   padding: 16px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+
+  
+  kbd {
+    display: block;
+    font-size: 28px;
+  }
+  
+  .sound {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
   }
