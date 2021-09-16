@@ -1,0 +1,21 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+  
+  body::after {
+    content: "";
+    background: url(drums-wallpaper-1920x1080.jpg);
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
