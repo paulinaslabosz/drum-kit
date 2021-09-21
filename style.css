@@ -43,6 +43,7 @@ body::after {
   color: white;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
+  transition: all 0.09s;
 }
 
 kbd {
@@ -59,6 +60,6 @@ kbd {
 
 
 .played {
-  transform: scale(1.1);
+  transform: scale(1.2);
   border-color: #ffc600;
 }
