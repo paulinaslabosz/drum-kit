@@ -1,14 +1,15 @@
-const test = document.querySelector('.test')
+
+const keys = document.querySelectorAll('.key')
+
+// keys.forEach(key => key.classList.add('played'))
 
 
-const transform = () => {
-    test.classList.toggle('played')
-}
 
-test.addEventListener('click', transform);
+
 
 window.addEventListener('keydown', function(e) {
-    console.log(e);
+    keys.forEach(key => key.classList.add('played'))
+    console.log(e.keyCode);
 })
 
 
